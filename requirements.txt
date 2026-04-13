@@ -1,0 +1,15 @@
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+librosa>=0.10.0
+soundfile>=0.12.0
+plotly>=5.15.0
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+speechbrain>=0.5.15
+fpdf2>=2.7.0
+tqdm>=4.65.0
+PyYAML>=6.0
+polars
+matplotlib
