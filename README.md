@@ -15,55 +15,55 @@ A scalable, multi-threaded data quality pipeline designed for large Indic speech
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 210202.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 210427.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+ 
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225023.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+ 
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225029.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+  
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225036.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+ 
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225048.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+ 
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225054.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225107.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+  
 </div>
 
 <div align="center">
   <img src="assets/Screenshot 2026-04-13 225113.png" width="800" alt="Streamlit Dashboard Interface showing micro-decimal SNR">
   <br>
-  <em>Interactive Streamlit dashboard evaluating sub-second Indic audio clips.</em>
+ 
 </div>
 
 ---
@@ -199,25 +199,6 @@ python create_sample_dataset.py ./test_data
 
 ---
 
-##  Docker Support
-
-Docker is recommended for consistent environments across different machines.
-
-### Build and Run
-```bash
-docker build -t indic-audio-qc .
-docker run -p 8501:8501 \
-  -v $(pwd)/test_data:/app/test_data \
-  -v $(pwd)/reports:/app/reports \
-  indic-audio-qc
-```
-
-### GPU Support
-```bash
-docker run --gpus all -p 8501:8501 \
-  -v $(pwd)/test_data:/app/test_data \
-  indic-audio-qc
-```
 
 ---
 
