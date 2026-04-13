@@ -1,5 +1,5 @@
 # Exclude test data folders but allow specific subdirectories
-test_data/*
+test_data/
 !test_data/sample_audios/
 test_data-sample_ausis/
 
